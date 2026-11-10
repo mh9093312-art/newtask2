@@ -1,0 +1,26 @@
+h1{
+    /* color: rebeccapurple; */
+    /* color: #B8905F; */
+    /* color: rgb(184, 144, 95); */
+    /* color: rgba(184, 144, 95, 0.8); */
+    /* color: hsl(12, 72%, 46% ); */
+    color: hsla(12, 72%, 46%, 0.6 );
+
+
+}
+#head1{
+    background-color:seagreen;
+    color: azure;
+    font-size: 90px;
+    font-weight: 900;
+    font-family: 'Courier New', Courier, monospace;
+    font-style: italic;
+    text-align:justify;
+    text-transform: capitalize;
+    line-height:300px;
+    /* letter-spacing: 60px; */
+    word-spacing: 80px;
+    text-decoration:line-through;
+    /* text-shadow: h-offset v-offset blur-radius color; */
+    text-shadow: 600px 90px 50px wheat;
+}

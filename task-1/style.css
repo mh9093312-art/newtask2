@@ -1,0 +1,21 @@
+body{
+    background-color: rgb(207, 180, 122);
+}
+img{
+          margin-left: 550px;
+}
+H1{
+    color: black;
+    text-align: center;
+}
+p{
+  background-color: beige;
+  border-radius: 10px;
+}
+pre{
+    background-color: beige;
+     border-radius: 10px;
+}
+h3{
+    color: red;
+}

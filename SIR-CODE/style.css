@@ -1,0 +1,49 @@
+/* box model */
+/* units */
+
+
+/* Combinators: upgraded version of Selectors */
+/* 1) Descendent Combinator (space): 
+    The Descendent Combinator(selector) matches all elements
+that are descendent of the specified element.
+*/
+/* 
+div p{
+    background-color: burlywood;
+} */
+
+
+/* 2) Child Combinator (>):
+    Selects all elements that are the children  of a specified element.
+*/
+/* 
+div > p{
+    background-color: aqua;
+} */
+
+/* h1  p{
+    background-color: aqua;
+} */
+
+/* h1 > p{
+    background-color: aqua;
+} */
+
+
+/* 3) Adjacent Sibling Combinator (+):
+    used to select an element that is directly after another specific elements. 
+    */
+
+
+    /* h1 + p {
+        background-color: chartreuse;
+    } */
+
+
+    /* 4): General Sibling Combinator: (~:tilde): 
+        selects all elements that are next sibling of a specific element.
+    */
+
+    h1 ~ p {
+        background-color: cornflowerblue;
+    }

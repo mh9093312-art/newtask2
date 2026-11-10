@@ -1,0 +1,60 @@
+
+
+/* Spacing */
+/* margin */
+/* padding */
+/* Box Model */
+html{
+    font-size: 15px;
+}
+.container{
+    /* border: 10px solid red; */
+    /* border: solid; */
+    /* border-color: red; */
+    border-right: solid 3px red;
+    height: 500px;
+    width: 400px;
+    padding: 5px;
+    margin: 20px 10px 2px 1px;
+    box-sizing: border-box;
+}
+
+
+/* -------------------------------- */
+/* Units */ 
+
+
+/* 2 types of units */
+/* 1) Absolute unit (fixed units) */
+
+/* default text size = 16px */
+/* default h1 = 32px */
+/* px */
+.head1{
+    color: cadetblue;
+    font-size: 10px;
+}
+/* pt->point = 1/72 inches  */
+
+
+/* ------------------------- */
+/* 2) Relative Units (responsive) */
+/* i) em : relative to the parent element font size */
+/* ii) rem: relative to the root element font size */
+/* iii) % : relative to the parent element / current element  */
+/* vw: viewport width: 1 vw = 1% viewport */
+/* 1em = parent element font-size(px) */
+/*  */
+.parent{
+    /* font-size: 20px; */
+}
+pre{
+    /* font-size: 3em; */
+    /* font-size: 2rem; */
+    /* font-size: 100%; */
+    font-size: 100vw;
+
+}
+
+\
+https://drive.google.com/drive/folders/1Oqe1JNydsIAt1sUEHY7-TAVyI41x3Sj9?usp=drive_link

@@ -1,0 +1,26 @@
+h1{
+    background-color: brown;
+}
+.container{
+    width: 1500px;
+    height: 800px;
+    background-color: bisque;
+    border: 50px dotted red;
+    padding: 100px;
+    background: url('https://png.pngtree.com/thumb_back/fh260/background/20230930/pngtree-a-blue-sky-above-clouds-with-clouds-image_13313410.jpg');
+    /* background: linear-gradient(to right, #24B8ED, #8A793B, #DE8D64); */
+    background-repeat:no-repeat;
+    /* background-position:400px; */
+    background-size: cover;
+    background-attachment: fixed;
+    /* background-origin: content-box; */
+    background-clip:border-box;
+
+}   
+/* Inline level Elements / Block level Elements  */
+/* nature of elements */
+/* Block level element: consumes whole width of the viewport */
+/* Inline Level Elements: comsumes only specified space */
+img{
+    display: block;
+}

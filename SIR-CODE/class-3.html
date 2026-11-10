@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+    <h1>CSS Class 4</h1>
+    <!-- <div class="container main ">
+       
+        
+    </div> -->
+    <h1 class="head1">Px (Absolute Unit)</h1>
+    <p>Lorem, ipsum dolor sit amet consecte</p>
+    <div class="parent">
+
+        <pre id="test-element">Relative unit (em)</pre>
+    </div>
+    <script>
+        // const container = document.querySelector('.main');
+        // console.log("Actual width (with padding and border):", container.offsetWidth + "px");
+        // // ---
+        function getComputedPx(element, property){
+            if(!element) return null;
+            const computedStyle = window.getComputedStyle(element);
+            const valueInPx = computedStyle.getPropertyValue(property);
+            return valueInPx;
+        }
+        document.addEventListener("DOMContentLoaded",()=>{
+            const element = document.querySelector('#test-element');
+            console.log("font size in px:", getComputedPx(element, "font-size"));
+            console.log("Width in Px", getComputedPx(element, "width"));
+            console.log("Height in px", getComputedPx(element, "height"));
+        })
+
+        function getViewPortWidth(){
+            return window.innerWidth;
+        }
+        console.log("viewport width", getViewPortWidth());
+        
+    </script>
+</body>
+
+</html>
+
+
+
+
+
+
+/* Spacing */
+/* margin */
+/* padding */
+/* Box Model */
+html{
+    font-size: 15px;
+}
+.container{
+    /* border: 10px solid red; */
+    /* border: solid; */
+    /* border-color: red; */
+    border-right: solid 3px red;
+    height: 500px;
+    width: 400px;
+    padding: 5px;
+    margin: 20px 10px 2px 1px;
+    box-sizing: border-box;
+}
+
+
+/* -------------------------------- */
+/* Units */ 
+
+
+/* 2 types of units */
+/* 1) Absolute unit (fixed units) */
+
+/* default text size = 16px */
+/* default h1 = 32px */
+/* px */
+.head1{
+    color: cadetblue;
+    font-size: 10px;
+}
+/* pt->point = 1/72 inches  */
+
+
+/* ------------------------- */
+/* 2) Relative Units (responsive) */
+/* i) em : relative to the parent element font size */
+/* ii) rem: relative to the root element font size */
+/* iii) % : relative to the parent element / current element  */
+/* vw: viewport width: 1 vw = 1% viewport */
+/* 1em = parent element font-size(px) */
+/*  */
+.parent{
+    /* font-size: 20px; */
+}
+pre{
+    /* font-size: 3em; */
+    /* font-size: 2rem; */
+    /* font-size: 100%; */
+    font-size: 100vw;
+
+}
+
+\
+https://drive.google.com/drive/folders/1Oqe1JNydsIAt1sUEHY7-TAVyI41x3Sj9?usp=drive_link

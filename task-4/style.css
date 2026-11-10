@@ -1,0 +1,46 @@
+label,input{
+    position: relative;left: 500px;bottom: 400px;
+    padding: 12px; width: 300px;
+    border-radius: 10px;
+}
+.tap{
+    background-color: yellow;
+    color: white;
+    border-radius: 10px;
+    position: relative;left: 710px;bottom: 460px;
+    width: 70px;
+     padding: 9px;
+}
+.map{
+      position: relative; left: 500px;
+      bottom: 200px;
+      
+       
+}
+.pak{
+     position: relative; left: 950px;
+      bottom: 400px;
+}
+.top{
+    position: relative; left: 50px;
+}
+.nhi{
+     position: relative;left: 500px;bottom: 150px;
+
+}
+.table{
+    position: relative; left: 50px; bottom: 350px;
+}
+.jani{
+    position: relative; left: 950px;
+    bottom: 550px;
+}
+.bhai{
+    position: relative;left: 50px;bottom: 350px;
+}
+.kal{
+    position: relative; left: 500px; bottom: 550px;
+}
+.bro{
+    position: relative; left: 950px; bottom: 750px;
+}

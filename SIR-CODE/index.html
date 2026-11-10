@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+    <style>
+        h3 {
+            color: aqua;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>CSS - Cascading Style Sheets</h1>
+    <!-- Types of styling(Methodologies) -->
+    <!-- 1- Inline styling/CSS -->
+    <h2 style="color: brown;">Inline Styling</h2>
+    <!-- 2) Internal Styling/CSS -->
+    <h3>Internal Styling</h3>
+    <!--3)  External Styling / CSS -->
+    <h4>External Styling / CSS</h4>
+    <p class="para">Class Selector </p>
+    <pre id="pref">Id Selector </pre>
+    <div>
+        <h6>Common Properties</h6>
+    </div>
+    <br><br><br><br><br><br>
+</body>
+
+</html>
+
+
+
+
+
+
+/* 1) Intro */
+/* properties */
+/* values */
+/* 2) Selectors */
+/* i) element selector */
+/* ii) Class Selector */
+/* iii) Id selector */
+/* iv) Group Selector */
+/* v) Universal Selector */
+
+h4 {
+    /* Styling Property */
+    /* perperty : value ; */
+    color: burlywood;
+}
+
+.para {
+    background-color: bisque;
+    color: brown;
+}
+#pref {
+    background-color: chartreuse;
+}
+
+h1, h2, h3, h4, #pref, .para{
+    background-color: cornflowerblue;
+}
+
+*{
+    background-color: blueviolet;
+    color: darkkhaki;
+}
+
+
+/* -------------------------------------------------------------------------------------------   */
+/* 3) Common Styling Properties */
+h6{
+    color: cadetblue;
+    background-color: blanchedalmond;
+    font-size: 40px;
+    border: 20px solid firebrick;
+    margin: 30px;
+    padding: 90px;
+    text-align: center;
+
+}
+/* Responsivness */
+/* width & height */
+div{
+    border: 10px solid gold;
+    /* width: 800px; */
+    height: 300px;
+    max-width: 1500px;
+    min-width: 700px;
+}
